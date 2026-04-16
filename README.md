@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DecideMe
+
+DecideMe is a local-first MVP for community-driven decision making. Users can post real-life decisions, vote on options, add reasons behind their choices, and upvote the most helpful reasoning.
+
+## Features
+
+- Curated decision feed
+- Ask page for creating new decisions
+- Explore page with filter, sort, and search
+- Decision detail pages
+- Local voting with persistent results
+- Reasons and reason upvotes
+- Edit and delete for submitted decisions
+- Share decision links
+- Profile analytics dashboard
+- Local-first persistence with no account required
+
+## Tech Stack
+
+- Next.js
+- TypeScript
+- Tailwind CSS
+- React Context
+- localStorage
+- Lucide React
+
+## MVP Behavior
+
+This is a local-first MVP. No account is required. Activity is stored on the current device only.
+
+## Future Roadmap
+
+- Supabase authentication
+- Multi-user shared database
+- Cross-device sync
+- Moderation workflows
+- Notifications
+- Better feed ranking
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
